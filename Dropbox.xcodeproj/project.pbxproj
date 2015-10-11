@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D24634FC1BCB18150079A29A /* Exist_User_Settings_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24634FB1BCB18150079A29A /* Exist_User_Settings_ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D24634FE1BCB20C40079A29A /* WelcomeSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24634FD1BCB20C40079A29A /* WelcomeSignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D24635001BCB25610079A29A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24634FF1BCB25610079A29A /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 		D26D68FA1BC4F2E70084A063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D68F91BC4F2E70084A063 /* AppDelegate.swift */; };
 		D26D68FC1BC4F2E70084A063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26D68FB1BC4F2E70084A063 /* ViewController.swift */; };
 		D26D68FF1BC4F2E70084A063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26D68FD1BC4F2E70084A063 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		D24634FB1BCB18150079A29A /* Exist_User_Settings_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exist_User_Settings_ViewController.swift; sourceTree = "<group>"; };
 		D24634FD1BCB20C40079A29A /* WelcomeSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSignInViewController.swift; sourceTree = "<group>"; };
+		D24634FF1BCB25610079A29A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D26D68F61BC4F2E70084A063 /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26D68F91BC4F2E70084A063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26D68FB1BC4F2E70084A063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				D26D69001BC4F2E70084A063 /* Assets.xcassets */,
 				D26D69021BC4F2E70084A063 /* LaunchScreen.storyboard */,
 				D26D69051BC4F2E70084A063 /* Info.plist */,
+				D24634FF1BCB25610079A29A /* Images.xcassets */,
 			);
 			path = Dropbox;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26D69041BC4F2E70084A063 /* LaunchScreen.storyboard in Resources */,
+				D24635001BCB25610079A29A /* Images.xcassets in Resources */,
 				D26D69011BC4F2E70084A063 /* Assets.xcassets in Resources */,
 				D26D68FF1BC4F2E70084A063 /* Main.storyboard in Resources */,
 			);
@@ -278,7 +282,10 @@
 		D26D69091BC4F2E70084A063 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = Dropbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = walmartlabs.Dropbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,7 +295,10 @@
 		D26D690A1BC4F2E70084A063 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = Dropbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = walmartlabs.Dropbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
